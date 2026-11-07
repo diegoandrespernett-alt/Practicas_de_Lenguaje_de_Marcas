@@ -1,0 +1,11 @@
+ul.lista li:nth-child(1){
+    color: red;
+}
+
+ul.lista li:nth-child(3){
+    color: green;
+}
+
+ul.lista li:nth-child(5){
+    color: blue;
+}
