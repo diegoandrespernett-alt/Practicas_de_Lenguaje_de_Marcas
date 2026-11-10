@@ -1,0 +1,25 @@
+.table td:nth-child(1){
+    color: red;
+    background-color: yellow;
+}
+
+.table td:nth-child(2){
+    color: green;
+    background-color: lightgreen;
+}
+
+.table td:nth-child(3){
+    color: blue;
+    background-color: lightblue;
+}
+
+.table td:nth-child(4){
+    color: purple;
+    background-color: thistle;
+}
+
+.table td:nth-child(5){
+    color: rgb(247, 0, 255);
+    background-color: lightsalmon;
+}
+
