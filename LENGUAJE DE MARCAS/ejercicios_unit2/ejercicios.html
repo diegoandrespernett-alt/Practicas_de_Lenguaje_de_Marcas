@@ -1,0 +1,366 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The World of Cinema</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>The World of Cinema</h1>
+        <p>Discover the history, genres and greatest movies of all time.</p>
+    </header>
+
+    <main>
+
+        <!-- EXERCISE 1: CHAPTERS AND SECTIONS -->
+
+        <h1>Chapter 1</h1>
+
+        <h2>Introduction</h2>
+        <p>Cinema is one of the most popular forms of entertainment in the world. It allows people to experience different stories, cultures and emotions through moving images.</p>
+        <p>Since its invention, cinema has evolved significantly thanks to technological advances and the creativity of filmmakers.</p>
+
+        <h2>Objectives</h2>
+        <p>The main objective of this website is to provide information about movies, directors, actors and the film industry.</p>
+        <p>It also aims to help readers discover different movie genres and learn about the most successful films in history.</p>
+
+        <h1>Chapter 2</h1>
+
+        <h2>Movies</h2>
+        <p>Movies are audiovisual productions that tell stories through images, sound and dialogue. They can entertain, educate and inspire audiences.</p>
+        <p>Some movies become worldwide successes because of their stories, special effects and talented performers.</p>
+
+        <h2>Directors</h2>
+        <p>Film directors are responsible for guiding the artistic and creative aspects of a movie. They coordinate actors, camera operators and other professionals.</p>
+        <p>Famous directors such as Steven Spielberg, Christopher Nolan and James Cameron have created some of the most successful films in history.</p>
+
+        <h2>Actors and Actresses</h2>
+        <p>Actors and actresses bring fictional characters to life through their performances. Their work is essential for communicating emotions and developing stories.</p>
+        <p>Some internationally recognized actors include Leonardo DiCaprio, Tom Hanks and Meryl Streep.</p>
+
+
+        <!-- EXERCISE 2: ADDITIONAL HTML ELEMENTS -->
+
+        <h2>A Famous Quote About Cinema</h2>
+
+        <blockquote>
+            "A day without laughter is a day wasted."
+            <footer>— Charlie Chaplin</footer>
+        </blockquote>
+
+        <h2>Movie Genres</h2>
+
+        <dl>
+            <dt>Action</dt>
+            <dd>Movies featuring exciting sequences, fights, adventures and spectacular events.</dd>
+
+            <dt>Comedy</dt>
+            <dd>Movies designed to entertain audiences through humor, funny situations and jokes.</dd>
+
+            <dt>Horror</dt>
+            <dd>Movies created to generate suspense, fear and tension through frightening stories.</dd>
+        </dl>
+
+        <h2>Movie Image</h2>
+
+        <figure>
+            <img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba"
+                 alt="Cinema theater with movie seats"
+                 width="500">
+            <figcaption>A cinema theater ready for a movie screening.</figcaption>
+        </figure>
+
+        <h2>Top 10 Highest-Grossing Movies Worldwide</h2>
+
+        <ol>
+            <li><a href="https://en.wikipedia.org/wiki/Avengers:_Endgame">Avengers: Endgame</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Avatar_(2009_film)">Avatar</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Spider-Man:_Brand_New_Day">Spider-Man: Brand New Day</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Avatar:_The_Way_of_Water">Avatar: The Way of Water</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Ne_Zha_2">Ne Zha 2</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Titanic_(1997_film)">Titanic</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Star_Wars:_The_Force_Awakens">Star Wars: The Force Awakens</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Avengers:_Infinity_War">Avengers: Infinity War</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Spider-Man:_No_Way_Home">Spider-Man: No Way Home</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Zootopia_2">Zootopia 2</a></li>
+        </ol>
+
+        <h2>Movie Trailer</h2>
+
+        <video width="500" controls>
+            <source src="https://download.blender.org/durian/trailer/sintel_trailer-480p.mp4"
+                    type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+
+        <h2>YouTube Movie Video</h2>
+
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/aqz-KE-bpKQ"
+            title="Big Buck Bunny movie video"
+            allowfullscreen>
+        </iframe>
+
+
+        <!-- EXERCISE 3: SUBSCRIPTION FORM -->
+
+        <h1>Chapter 3 - Movie Magazine Subscription</h1>
+
+        <h2>Subscribe to Our Movie Magazine</h2>
+
+        <p>Complete the following form to subscribe to our magazine.</p>
+
+        <form action="#" method="post">
+
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname"
+                   required minlength="2" maxlength="40">
+            <br><br>
+
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname"
+                   required minlength="2" maxlength="40">
+            <br><br>
+
+            <label for="address">Postal Address:</label>
+            <input type="text" id="address" name="address"
+                   required maxlength="100">
+            <br><br>
+
+            <label for="email">Electronic Mail:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="telephone">Telephone Number:</label>
+            <input type="tel" id="telephone" name="telephone"
+                   required pattern="[0-9+\s()-]{9,15}">
+            <br><br>
+
+            <label for="issues">Number of Issues:</label>
+            <input type="number" id="issues" name="issues"
+                   min="1" max="10" value="1" required>
+            <br><br>
+
+            <label for="subscription">Type of Subscription:</label>
+
+            <select id="subscription" name="subscription" required>
+                <option value="">Choose an option</option>
+                <option value="monthly">Monthly</option>
+                <option value="quarterly">Quarterly</option>
+                <option value="yearly">Yearly</option>
+            </select>
+
+            <br><br>
+
+            <button type="submit">Subscribe Now</button>
+            <button type="reset">Reset Form</button>
+
+        </form>
+
+
+        <!-- EXERCISE 4: CINEMA TIMETABLE -->
+
+        <h2>Movies Currently in Theaters - Granada</h2>
+
+        <p>Movie sessions for Saturday 14 and Sunday 15 November 2026.</p>
+
+        <table border="1">
+
+            <thead>
+                <tr>
+                    <th>Movie</th>
+                    <th>Cinema</th>
+                    <th>Saturday 14</th>
+                    <th>Sunday 15</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Scrooge and the Ghosts of Christmas</td>
+                    <td>Kinépolis Granada</td>
+                    <td>17:20, 19:00, 19:50, 22:20</td>
+                    <td>17:20, 19:00, 19:50, 22:20</td>
+                </tr>
+
+                <tr>
+                    <td>Peppa's Cinema Party</td>
+                    <td>Ocine Serrallo</td>
+                    <td>16:30</td>
+                    <td>Check cinema schedule</td>
+                </tr>
+
+                <tr>
+                    <td>Do You Understand Me or Should I Explain It?</td>
+                    <td>Ocine Serrallo</td>
+                    <td>20:00</td>
+                    <td>Check cinema schedule</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="4">
+                        Timetable information: Granada cinema listings.
+                        Schedules may change.
+                    </td>
+                </tr>
+            </tfoot>
+
+        </table>
+
+
+        <!-- EXERCISE 5: DISCLAIMER AND ADVERTISEMENT -->
+
+        <aside>
+            <h2>Advertisement</h2>
+
+            <h3>Visit Ocine Serrallo!</h3>
+
+            <p>Enjoy the latest movies, comfortable seats and an amazing cinema experience in Granada.</p>
+
+            <a href="https://www.ocineserrallo.com/">
+                Visit Ocine Serrallo
+            </a>
+        </aside>
+
+        <footer>
+            <small>
+                Disclaimer: All movie titles, images and trademarks belong to
+                their respective owners. This website is an educational project
+                and is not affiliated with any film production company.
+                External links are provided for informational purposes only.
+            </small>
+        </footer>
+
+
+        <!-- EXERCISE 6: ZODIAC SIGNS -->
+
+        <h2>The 12 Zodiac Signs</h2>
+
+        <ol>
+            <li><a href="https://en.wikipedia.org/wiki/Aries_(astrology)">Aries</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Taurus_(astrology)">Taurus</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Gemini_(astrology)">Gemini</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Cancer_(astrology)">Cancer</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Leo_(astrology)">Leo</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Virgo_(astrology)">Virgo</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Libra_(astrology)">Libra</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Scorpio_(astrology)">Scorpio</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Sagittarius_(astrology)">Sagittarius</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Capricorn_(astrology)">Capricorn</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Aquarius_(astrology)">Aquarius</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Pisces_(astrology)">Pisces</a></li>
+        </ol>
+
+
+        <!-- EXERCISE 7: MATHEMATICAL FORMULA -->
+
+        <h2>Second-Degree Equation Formula</h2>
+
+        <p>
+            The quadratic formula is used to solve second-degree equations:
+        </p>
+
+        <p>
+            ax<sup>2</sup> + bx + c = 0
+        </p>
+
+        <p>
+            x = (-b &plusmn; &radic;(b<sup>2</sup> - 4ac)) / 2a
+        </p>
+
+        <p>
+            The discriminant is calculated using:
+            &Delta; = b<sup>2</sup> - 4ac
+        </p>
+
+
+        <!-- EXERCISE 8: COMPANY INCOMES AND EXPENSES -->
+
+        <h2>Company Weekly Income and Expenses</h2>
+
+        <table border="1">
+
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Income (€)</th>
+                    <th>Expenses (€)</th>
+                    <th>Profit (€)</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>500</td>
+                    <td>200</td>
+                    <td>300</td>
+                </tr>
+
+                <tr>
+                    <td>Tuesday</td>
+                    <td>650</td>
+                    <td>250</td>
+                    <td>400</td>
+                </tr>
+
+                <tr>
+                    <td>Wednesday</td>
+                    <td>700</td>
+                    <td>300</td>
+                    <td>400</td>
+                </tr>
+
+                <tr>
+                    <td>Thursday</td>
+                    <td>800</td>
+                    <td>350</td>
+                    <td>450</td>
+                </tr>
+
+                <tr>
+                    <td>Friday</td>
+                    <td>900</td>
+                    <td>400</td>
+                    <td>500</td>
+                </tr>
+
+                <tr>
+                    <td>Saturday</td>
+                    <td>1000</td>
+                    <td>450</td>
+                    <td>550</td>
+                </tr>
+
+                <tr>
+                    <td>Sunday</td>
+                    <td>600</td>
+                    <td>250</td>
+                    <td>350</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th>Total</th>
+                    <th>5150 €</th>
+                    <th>2200 €</th>
+                    <th>2950 €</th>
+                </tr>
+            </tfoot>
+
+        </table>
+
+    </main>
+
+</body>
+</html>
